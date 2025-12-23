@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NandhaGopal V - Portfolio</title>
+    <meta name="description"
+        content="Personal Portfolio of NandhaGopal V, a Passionate Frontend Developer specializing in modern web experiences.">
+    <meta name="theme-color" content="#FF6B00">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">NandhaGopal V</a>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="theme-toggle">
+                                <input type="checkbox" id="theme-toggle" />
+                                <div class="slider round"></div>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="assets/images/my_img.jpeg" alt="NandhaGopal V" class="profile-img">
+            <h1>Hi, I'm NandhaGopal V</h1>
+            <p>A Passionate Front-End Developer crafting modern web experiences.</p>
+            <a href="projects.html" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">What I Do</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and performant websites using modern HTML & CSS standards.</p>
+                </div>
+                <div class="card">
+                    <h3>UI Design</h3>
+                    <p>Designing intuitive and clean user interfaces with a focus on user experience.</p>
+                </div>
+                <div class="card">
+                    <h3>Optimization</h3>
+                    <p>Ensuring websites are fast, accessible, and SEO friendly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section class="certifications" style="background-color: var(--bg-color);">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">Certifications & Achievements</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Meta Front-End Developer</h3>
+                    <p style="color: var(--light-text); font-size: 0.9rem;">Coursera - 2024</p>
+                    <p style="margin-top: 10px;">Professional certification covering React, JavaScript, and UI/UX
+                        principles.</p>
+                </div>
+                <div class="card">
+                    <h3>Hackathon Winner</h3>
+                    <p style="color: var(--light-text); font-size: 0.9rem;">TechFest 2024</p>
+                    <p style="margin-top: 10px;">Won 1st place in the "Best UI Design" category for an eco-friendly app
+                        concept.</p>
+                </div>
+                <div class="card">
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <p style="color: var(--light-text); font-size: 0.9rem;">Amazon Web Services - 2023</p>
+                    <p style="margin-top: 10px;">Fundamental understanding of IT services and their uses in the AWS
+                        Cloud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NandhaGopal V. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
